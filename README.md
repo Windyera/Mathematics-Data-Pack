@@ -2,15 +2,15 @@
 
 This data pack works with scoreboard, add several math-based functions. 
 
-### How to use
+## How to use
 
-#### Initialize
+### Initialize
 
 Generaly it initialize automatically. If something went wrong, run:
 
 `/function mathematics:initialize`
 
-#### Calculation
+### Calculation
 
 1. Put the first value in `math.target` and the second in `math.source`.
 
@@ -30,7 +30,7 @@ e.g.
 
 Note: Some functions only use one value `math.target`.
 
-#### Stack
+### Stack
 
 The stack used here have the same function to the stack in the field of computer technic. This stack have 16 sorts. After full It can not store additional value **without** a Syntex Error unless pop value from it.
 
@@ -40,7 +40,7 @@ To get a value, run `math:stack.get_top`, the value will be seen in `math.buffer
 
 To get a value and remove it from the stack, run `math:stack.pop`, the value will be seen in `math.buffer` and a sort will be released.
 
-### FAQ
+## FAQ
 
 1. Why use `math` and `mathematics` this kind of common namespace?
 
