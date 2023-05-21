@@ -1,0 +1,1 @@
+execute run scoreboard players operation @s math.stack.item_02 = @s math.buffer
