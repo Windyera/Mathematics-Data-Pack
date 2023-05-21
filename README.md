@@ -1,4 +1,4 @@
-# Mathematics-Data-Pack
+# Mathematics Data Pack
 
 This data pack works with scoreboard, add several math-based functions. 
 
