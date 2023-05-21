@@ -11,11 +11,18 @@ Generaly it initialize automatically. If something went wrong, run:
 
 #### Calculation
 
-1. Put the first value in `math.target` and the second in `math.source`. e.g.
+1. Put the first value in `math.target` and the second in `math.source`.
+
+e.g.
 `/scoreboard players operation @s math.target = @s my_objective
+
 /scoreboard players operation @s math.source = @s another_objective`
-2. Pick a function in `math` namespace. e.g.
+
+2. Pick a function in `math` namespace.
+
+e.g.
 `/function math:power`
+
 3.The calculation result will replace the value of `math.target`. And `math.source` will be kept.
 
 Note: Some functions only use one value `math.target`.
