@@ -20,7 +20,7 @@ e.g.
 
 `/scoreboard players operation @s math.source = @s another_objective`
 
-2. Pick a function in `math` namespace.
+2. Pick a function under `math` namespace.
 
 e.g.
 
@@ -28,7 +28,7 @@ e.g.
 
 3.The calculation result will replace the value of `math.target`. And `math.source` will be kept.
 
-Note: Some functions only use one value `math.target`.
+Note: Although some functions only use one value `math.target`, `math.source` may be overwrited.
 
 ### Stack
 
