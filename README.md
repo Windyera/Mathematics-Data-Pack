@@ -32,13 +32,13 @@ Note: Some functions only use one value `math.target`.
 
 ### Stack
 
-The stack used here have the same function to the stack in the field of computer technic. This stack have 16 sorts. After full It can not store additional value **without** a Syntex Error unless pop a value from it.
+The stack used here have the same function to the stack in the field of computer technic. The stack have 16 sorts. After full It can not store additional value **without** a Syntex Error unless pop a value from it.
 
-To store a value, put it in `math.buffer` then run `math:stack.push`.
+To store a value, put it in `math.buffer` then run `/function math:stack.push`.
 
-To get a value, run `math:stack.get_top`, the value will be seen in `math.buffer`.
+To get a value, run `/function math:stack.get_top`, the value will be seen in `math.buffer`.
 
-To get a value and remove it from the stack, run `math:stack.pop`, the value will be seen in `math.buffer` and a sort will be released.
+To get a value and remove it from the stack, run `/function math:stack.pop`, the value will be seen in `math.buffer` and a sort will be released.
 
 ## FAQ
 
