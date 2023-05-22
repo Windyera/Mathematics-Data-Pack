@@ -1,6 +1,6 @@
 # Mathematics Data Pack
 
-This data pack works with scoreboard, add several math-based functions. 
+This data pack works with scoreboard, provide several math-based functions. 
 
 ## How to use
 
@@ -32,7 +32,7 @@ Note: Some functions only use one value `math.target`.
 
 ### Stack
 
-The stack used here have the same function to the stack in the field of computer technic. This stack have 16 sorts. After full It can not store additional value **without** a Syntex Error unless pop value from it.
+The stack used here have the same function to the stack in the field of computer technic. This stack have 16 sorts. After full It can not store additional value **without** a Syntex Error unless pop a value from it.
 
 To store a value, put it in `math.buffer` then run `math:stack.push`.
 
@@ -42,6 +42,6 @@ To get a value and remove it from the stack, run `math:stack.pop`, the value wil
 
 ## FAQ
 
-1. Why use `math` and `mathematics` this kind of common namespace?
+Q: Why use `math` and `mathematics` this kind of common namespace?
 
-This data pack orignaly used on my own server, I have no interesting to remake it.
+A: This data pack orignaly used on my own server, I have no interesting to remake it.
