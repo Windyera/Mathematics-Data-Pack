@@ -32,7 +32,7 @@ Note: Although some functions only use one value `math.target`, `math.source` ma
 
 ### Stack
 
-The stack used here have the same function to the stack in the field of computer technic. The stack have 16 sorts. After full It can not store additional value **without** a Syntex Error unless pop a value from it.
+The stack used here have the same behavior to the stack in the field of computer technic. The stack have 16 sorts. After full It can not store additional value **without** a Syntex Error unless pop a value from it.
 
 To store a value, put it in `math.buffer` then run `/function math:stack.push`.
 
