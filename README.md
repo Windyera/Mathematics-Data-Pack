@@ -32,11 +32,11 @@ Note: Although some functions take only one value `math.target`, `math.source` c
 
 The stacks used here have the same behaviour as the stacks used in computer engineering. The stack has 16 sorts. After it is full it cannot store any more value **without** a Syntex Error unless pop a value from it.
 
-To store a value, put it in `math.buffer` then run `/function math:stack.push`.
+**Push**: Put the value in `math.buffer` then run `/function math:stack.push`.
 
-To get a value, run `/function math:stack.get_top`, the value will be seen in `math.buffer`.
+**Get Top**: Run `/function math:stack.get_top`, the topest value will be seen in `math.buffer`.
 
-To get a value and remove it from the stack, run `/function math:stack.pop`, the value will be seen in `math.buffer` and a sort will be released.
+**Pop**: Run `/function math:stack.pop`, the topest value will be seen in `math.buffer` and a sort will be released.
 
 ## FAQ
 
