@@ -1,12 +1,10 @@
 # Mathematics Data Pack
 
-This data pack works with scoreboard, provide several math-based functions. 
-
 ## How to use
 
 ### Initialize
 
-Generaly it initialize automatically. If something went wrong, run:
+Usually it initialises automatically. If not, run:
 
 `/function mathematics:initialize`
 
@@ -26,13 +24,13 @@ e.g.
 
 `/function math:power`
 
-3.The calculation result will replace the value of `math.target`. And `math.source` will be kept.
+3. The result of the calculation will replace the value of `math.target`. And `math.source` is kept.
 
-Note: Although some functions only use one value `math.target`, `math.source` may be overwrited.
+Note: Although some functions take only one value `math.target`, `math.source` can be overwritten.
 
 ### Stack
 
-The stack used here have the same behavior to the stack in the field of computer technic. The stack have 16 sorts. After full It can not store additional value **without** a Syntex Error unless pop a value from it.
+The stacks used here have the same behaviour as the stacks used in computer engineering. The stack has 16 sorts. After it is full it cannot store any more value **without** a Syntex Error unless pop a value from it.
 
 To store a value, put it in `math.buffer` then run `/function math:stack.push`.
 
@@ -44,4 +42,4 @@ To get a value and remove it from the stack, run `/function math:stack.pop`, the
 
 Q: Why use `math` and `mathematics` this kind of common namespace?
 
-A: This data pack orignaly used on my own server, I have no interesting to remake it.
+A: This data pack was originally used on my own server, I have no interest to remake it.
