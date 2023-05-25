@@ -1,12 +1,8 @@
 # Mathematics Data Pack
 
+Require [Mo-Tag](https://github.com/Windyera/Mo-Tag-Data-Pack) data pack.
+
 ## How to use
-
-### Initialize
-
-Usually it initialises automatically. If not, run:
-
-`/function mathematics:initialize`
 
 ### Calculation
 
