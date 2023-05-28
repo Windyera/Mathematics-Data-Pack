@@ -10,9 +10,9 @@ Require [Mo-Tag](https://github.com/Windyera/Mo-Tag-Data-Pack) data pack.
 
 e.g.
 
-`/scoreboard players operation @s math.target = @s *my_objective*`
+`/scoreboard players operation @s math.target = @s my_objective`
 
-`/scoreboard players operation @s math.source = @s *another_objective*`
+`/scoreboard players operation @s math.source = @s another_objective`
 
 2. Pick a function under `math` namespace.
 
@@ -26,7 +26,7 @@ Note: Although some functions take only one value `math.target`, `math.source` c
 
 ### Stack
 
-The stacks used here have the same behaviour as the stacks used in computer engineering. The stack has 16 sorts. After it is full it cannot store any more value **without** a Syntex Error unless pop a value from it.
+The stacks used here have the same behaviour as the stacks used in computer engineering. This data pack uses a stack with 16 sorts. After it is full it cannot store any more value **without** a Syntex Error unless pop a value from it.
 
 **Push**: Put the value in `math.buffer` then run `/function math:stack.push`.
 
