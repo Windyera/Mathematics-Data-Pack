@@ -10,9 +10,9 @@ Require [Mo-Tag](https://github.com/Windyera/Mo-Tag-Data-Pack) data pack.
 
 e.g.
 
-`/scoreboard players operation @s math.target = @s my_objective`
+`/scoreboard players operation @s math.target = @s *my_objective*`
 
-`/scoreboard players operation @s math.source = @s another_objective`
+`/scoreboard players operation @s math.source = @s *another_objective*`
 
 2. Pick a function under `math` namespace.
 
