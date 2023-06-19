@@ -33,9 +33,3 @@ The stacks used here have the same behaviour as the stacks used in computer engi
 **Get Top**: Run `/function math:stack.get_top`, the topest value will be seen in `math.buffer`.
 
 **Pop**: Run `/function math:stack.pop`, the topest value will be seen in `math.buffer` and a sort will be released.
-
-## FAQ
-
-Q: Why use `math` and `mathematics` this kind of common namespace?
-
-A: This data pack was originally used on my own server, I have no interest to remake it.
